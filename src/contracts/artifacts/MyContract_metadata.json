@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "date",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "MyEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "emitEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/contracts/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/contracts/MyContract.sol": {
+			"keccak256": "0x49f8700aa971bc2064683b8b1e82e5c314a20983b314c469b3e2a54cb1f28bf0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4325fad3ef005e7c56a04310948763399a436d6a1435036ab9d7495e191c19d9",
+				"dweb:/ipfs/QmVvvsfjtW5BztP4YE7SPEBZxULUD7SEaK7PRu72j7g9B2"
+			]
+		}
+	},
+	"version": 1
+}
